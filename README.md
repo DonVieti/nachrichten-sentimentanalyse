@@ -87,8 +87,8 @@ Begründung: Folgende Wörter deuten auf Negativstimmung: tötet
 
 ## Evaluationsergebnisse (nach 10 Epochen)
 
-- **Accuracy:** ~70 %  
-- **F1-Score (macro):** ~0.70  
+- **Accuracy:** ~67 %  
+- **F1-Score (macro):** ~0.67  
 - **Balanced Accuracy:** ~0.69  
 
 *Diese Werte zeigen, dass das Modell die Stimmung deutscher Nachrichtentitel gut erfassen kann.*
