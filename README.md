@@ -27,7 +27,7 @@ python gradio_app.py
 ---
 
 ## Projektstruktur
-
+```
 .
 ├── data/
 │   ├── negative_keywords_news.json    # Lemmatisierte Negativ-Wörter für Regelabgleich
@@ -35,11 +35,11 @@ python gradio_app.py
 │   ├── headlines_dataset_cleaned.csv  # Bereinigte, eindeutige Schlagzeilen
 │   ├── headlines_labeled.csv          # Manuell gelabelte Schlagzeilen (positiv, neutral, negativ)
 ├── experiments/                       
-~~│   ├── results_v3_earlystop           # Modell mit Early Stopping (Basis)~~  
-~~│   ├── results_v3_earlystop_finetuned # Feinjustiertes Early-Stopping-Modell~~  
-~~│   ├── results_v3_fineval             # Eval-fokussiertes Modell~~  
-~~│   ├── results_v3_robust              # Robuste Trainingsvariante~~  
-~~│   ├── results_v4_tuned               # Optimierte Hyperparameter~~  
+│   ├── results_v3_earlystop           # Modell mit Early Stopping (Basis) 
+│   ├── results_v3_earlystop_finetuned # Feinjustiertes Early-Stopping-Modell  
+│   ├── results_v3_fineval             # Eval-fokussiertes Modell  
+│   ├── results_v3_robust              # Robuste Trainingsvariante  
+│   ├── results_v4_tuned               # Optimierte Hyperparameter 
 │   ├── model_results.csv              # F1,Accuracy,Train & Eval Loss  Ergebnisse
 ├── final_model/                       
 │   ├── final_model_result.csv         # F1,Accuracy,Train & Eval Loss  FinaleErgebnisse
@@ -53,10 +53,10 @@ python gradio_app.py
 │   ├── predict_with_rules.py          # Regelbasiertes Post-Processing zur Stimmungskorrektur
 │   ├── gradio_app.py                  # Mini-WebApp zur hybriden Sentiment-Analyse
 ├── results/                           # Trainingsergebnisse
-~~├── saved_best_model/                  # Gespeichertes Trainingsmoddell~~
+├── saved_best_model/                  # Gespeichertes Trainingsmoddell
 │   main.ipynb                         # Interaktive Dokumentation & Analyse
 └── main_pipeline.py                   # Zentrale Pipeline zur Ausführung aller Schritte
-
+```
 **Hinweis:**  
 Die trainierten Modellgewichte in den Ordnern `final_model/` und `saved_best_model/` sowie einige Modelle im Ordner `experiments/` wurden aus Platzgründen nicht mit ins Repository aufgenommen.  
 Die Codebasis ist vollständig enthalten, um das Modell mit `train_model.py` neu zu trainieren.     
