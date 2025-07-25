@@ -1,0 +1,35 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Environment-dependent path to Maven home directory
+/mavenHomeManager.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# experiments ignorieren bis auf model_results.csv
+experiments/*
+!experiments/model_results.csv
+# Modelle ignorieren
+final_model/*
+!final_model/final_model_result.csv
+saved_best_model/
+results/
+# IDE & Editor
+.idea/
+.vscode/
+
+# Python Virtual Environment
+.venv/
+env/
+venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Gradio Cache
+.gradio/
+
+# Git-Ordner 
+.git/

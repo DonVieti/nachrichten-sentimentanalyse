@@ -1,0 +1,6 @@
+model_name,train_loss_,eval_loss (best),accuracy (best),f1_score (best)
+v3_earlystop,0.3748,0.8404,0.65,0.646
+v3_earlystop_finetuned,0.3250,1.0621,0.65,0.6507
+v3_fineval,0.1221,0.9705,0.66,0.6686
+v3_robust,0.9220,0.8734,0.62,0.6206
+v4_tuned,0.1316,1.0226,0.66,0.6638

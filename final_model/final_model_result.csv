@@ -1,0 +1,2 @@
+model_name,train_loss_,eval_loss (best),accuracy (best),f1_score (best)
+final_model,0.1421,1.0222,0.67,0.6749
